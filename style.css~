@@ -40,7 +40,6 @@ article{
 	
 }
 .cmp_ {
-	font-weight:bold;
 	font: 16px "Comic Sans MS" cursive;
 
 	

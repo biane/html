@@ -15,16 +15,17 @@
 </head>
 
 <body>
+<div id= "wrapper">
 <header>  
-	<img id="img" src="BIANE-Mohamed.jpg" width=220px>
+	<img id="img" src="BIANE-Mohamed.jpg" >
 	<h1> Mohamed BIANE </h1>
 	<h2> Ingénieur de développement logiciel </h2>
 </header>
 <div id="cmp">
-	<h5 id="address" class="cmp"><span>Adresse: </span>288, BD IKO Casablanca Maroc </h5>
-	<h5 class="cmp">Date de naissance: 21/10/1990 </h5>
-	<h5>Email: biane.mohamed@gmail.com </h5>
-	<h5>Nationalite: Marocaine </h5>
+	<h5 class="cmp"><span>Adresse: </span>288, BD IKO Casablanca Maroc </h5>
+	<h5 class="cmp"><span>Date de naissance:</span> 21/10/1990 </h5>
+	<h5 class="cmp"><span>Email:</span> biane.mohamed@gmail.com </h5>
+	<h5 class="cmp"><span>Nationalite:</span> Marocaine </h5>
 </div>
 
 <section>
@@ -61,6 +62,7 @@
 	<a href="www.google.com">Google+</a>
 	<a href="www.twitter.com">Twitter</a>
 </footer>
+</div>
 </body>
 
 </html>
