@@ -11,10 +11,18 @@ font-size: 1em;
 line-height: 1.4;
 }
 
-h1, h2, h3 {
-	color: navy;
+h1{
+	color: #516;
 }
 
+ h2, h3 {
+	color: navy;
+}
+header {
+	margin : 0px 10px 40px 90px;
+	text-align: center;
+
+}
 #wrapper{	
 	min-width:320px;
 	max-width:900px;
@@ -22,9 +30,33 @@ h1, h2, h3 {
 	margin-right:auto;
 }
 
-header img {
-	width: 220px;
-	float: right;
+#left {
+position: fixed;
+
+}
+.cmp_{
+	font-weight:bold;
+}
+#right {
+float: right;
+color: #333;
+border-left: 0px solid #ccc;
+box-shadow: -10px -5px 10px #7A7B7A;
+
+margin: 0px 0px 0px 0px;
+padding: 0px;
+width: 630px;
+display: inline;
+position: relative;
+}
+
+dt {
+	font-weight:bold;
+}
+
+#img {
+	width: 200px;
+	float: left;
 	margin: 10px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
@@ -32,18 +64,19 @@ header img {
 
 article{
 	border-radius: 10px;
+	box-shadow: 0px 0px 15px #555;
 	margin: 20px;		
 	padding: 10px;			
 	border: 1px solid #ccc;
 }
-#cmp {
-	
-}
-.cmp_ {
+#nom {
 	font-weight:bold;
-	font: 16px "Comic Sans MS" cursive;
-
-	
+	color : #523;
 }
 
+
+footer {
+	position: absolute;
+    bottom: 0;
+	 }
 
