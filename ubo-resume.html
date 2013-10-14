@@ -12,6 +12,54 @@
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+<script src="http://use.edgefonts.net/aladin;alegreya.js"></script>
+<script>
+
+	function generique(elt){
+	
+		if (elt.nextElementSibling.style.display=='none'){
+		elt.nextElementSibling.style.display='block';	
+		}
+		else
+		{
+		elt.nextElementSibling.style.display='none';	
+		}	
+	
+	}
+
+
+
+	function f_comp(){
+		var elt = document.getElementById('competences');
+		if (elt.style.display=='none'){
+		elt.style.display='block';	
+		}
+		else
+		{
+		elt.style.display='none';	
+		}
+	}
+function f_exp(){
+		var elt = document.getElementById('experience');
+		if (elt.style.display=='none'){
+		elt.style.display='block';	
+		}
+		else
+		{
+		elt.style.display='none';	
+		}
+	}
+function f_form(){
+		var elt = document.getElementById('formation');
+		if (elt.style.display=='none'){
+		elt.style.display='block';	
+		}
+		else
+		{
+		elt.style.display='none';	
+		}
+	}
+</script>
 </head>
 
 <body>
@@ -38,8 +86,9 @@
 
 
 <section>
-	<article>
- 		 <h3>COMPETENCES INFORMATIQUE</h3>
+	<h3 onclick="generique(this)">COMPETENCES INFORMATIQUE</h3>
+	<article id="competences">
+ 		 
 		<dl>
        			<dt>Programmation desktop</dt>
 			<dd>VB.NET, C, C++, JAVA</dd>
@@ -68,9 +117,9 @@
 		
 		
 	</article>
-	
-	<article>
- 		<h3>EXPERIENCE PROFESSIONNELLE</h3>
+	<h3 onclick="generique(this)">EXPERIENCE PROFESSIONNELLE</h3>
+	<article id="experience">
+ 		
 		<dl>
        			<dt> <b>2012</b> Projet de fin d’étude – l’association internationale competencesmarocaines.org </dt>
 			<dd>Mai à Juin, stage de 2 mois.</dd>
@@ -116,9 +165,9 @@
 		</dl>
 		
 	</article>
-	
-	<article>
- 		<h3>FORMATION</h3>
+	<h3 onclick="generique(this)">FORMATION</h3>
+	<article id="formation">
+ 		
 		<dl>
        			<dt> <b>2012-2014</b> Master spécialisé en « Ingénierie des Systèmes d’information »</dt>
 			<dd>Faculté des Sciences Semlalia de Marrakech.</dd>
@@ -145,16 +194,16 @@
 		
 	</article>
 </section>
+
 </div>
 
 </div>
+
+
+</body>
 <footer>
 	<a href="www.facebook.com">Facebook</a>
 	<a href="www.google.com">Google+</a>
 	<a href="www.twitter.com">Twitter</a>
 </footer>
-
-
-</body>
-
 </html>
